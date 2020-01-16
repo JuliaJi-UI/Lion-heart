@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background-image: linear-gradient(#F2994A, #F2C94C);
+    background-image: linear-gradient(rgb(16, 184, 175), rgb(212, 196, 147));
     font-family: 'roboto';
     color: #fff;
     font-size: 1.25rem;
@@ -35,7 +35,7 @@ header {
 }
 
 .nav-links a {
-    color: cornsilk;
+    color: #fff;
     text-decoration: none;
     list-style: none;
 }
@@ -58,6 +58,7 @@ main {
 .card3 {
     padding: 30px 30px 20px 30px;
     box-sizing: border-box;
+    border-radius: 5px;
 }
 
 .card1 {
@@ -131,11 +132,25 @@ p {
     flex: 1;
 }
 
-.card i {
-    font-size: 100px;
-    padding-top: 30px;
+.herobox2 img {
+    border-radius: 5px;
 }
 
+.card i {
+    font-size: 100px;
+}
+
+.btn {
+    color: #606060;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    background-color: #fff;
+}
 
 /* footer {
     background-color: rgb(209, 160, 143);
